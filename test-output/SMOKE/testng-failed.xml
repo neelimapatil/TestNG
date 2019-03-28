@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SMOKE]">
+  <parameter name="project" value="finsys"/>
+  <test thread-count="5" name="verify deletion of company(failed)">
+    <parameter name="owner" value="neelima"/>
+    <parameter name="password" value="passw0rd"/>
+    <parameter name="browsername" value="FF32"/>
+    <parameter name="textmessage" value="Welcome"/>
+    <parameter name="tcid" value="tc10001"/>
+    <parameter name="url" value="http://localhost:90/finsys/login.html"/>
+    <parameter name="username" value="dummyfm"/>
+    <groups>
+      <run>
+        <include name="launch"/>
+        <include name="login"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ej.modules.ManageCompany">
+        <methods>
+          <include name="deleteCompany"/>
+        </methods>
+      </class> <!-- ej.modules.ManageCompany -->
+    </classes>
+  </test> <!-- verify deletion of company(failed) -->
+</suite> <!-- Failed suite [SMOKE] -->

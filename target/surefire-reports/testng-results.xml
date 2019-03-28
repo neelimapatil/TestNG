@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="15" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SMOKE" duration-ms="104178" started-at="2019-01-27T11:24:11Z" finished-at="2019-01-27T11:25:55Z">
+    <groups>
+    </groups>
+    <test name="verify creation of new company" duration-ms="57836" started-at="2019-01-27T11:24:11Z" finished-at="2019-01-27T11:25:08Z">
+      <class name="ej.modules.Login">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ej.modules.Login@7225790e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-27T11:24:11Z" finished-at="2019-01-27T11:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:ej.modules.Login@7225790e]" name="OpenBrowser" duration-ms="16799" started-at="2019-01-27T11:24:11Z" finished-at="2019-01-27T11:24:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ej.modules.Login@7225790e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-27T11:24:27Z" finished-at="2019-01-27T11:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ej.modules.Login@7225790e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-01-27T11:24:27Z" finished-at="2019-01-27T11:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="EnterURL(java.lang.String)[pri:0, instance:ej.modules.Login@7225790e]" name="EnterURL" duration-ms="1867" started-at="2019-01-27T11:24:27Z" finished-at="2019-01-27T11:24:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:90/finsys/login.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterURL -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ej.modules.Login@7225790e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-27T11:24:29Z" finished-at="2019-01-27T11:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ej.modules.Login@7225790e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-27T11:24:29Z" finished-at="2019-01-27T11:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="EnterUserName(java.lang.String)[pri:0, instance:ej.modules.Login@7225790e]" name="EnterUserName" duration-ms="2153" started-at="2019-01-27T11:24:29Z" finished-at="2019-01-27T11:24:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummyfm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserName -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ej.modules.Login@7225790e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-27T11:24:31Z" finished-at="2019-01-27T11:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ej.modules.Login@7225790e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-01-27T11:24:31Z" finished-at="2019-01-27T11:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="EnterPassword(java.lang.String)[pri:0, instance:ej.modules.Login@7225790e]" name="EnterPassword" duration-ms="2131" started-at="2019-01-27T11:24:31Z" finished-at="2019-01-27T11:24:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ej.modules.Login@7225790e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-27T11:24:34Z" finished-at="2019-01-27T11:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ej.modules.Login@7225790e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-27T11:24:34Z" finished-at="2019-01-27T11:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickLoginButton(java.lang.String)[pri:0, instance:ej.modules.Login@7225790e]" name="ClickLoginButton" duration-ms="3494" started-at="2019-01-27T11:24:34Z" finished-at="2019-01-27T11:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Welcome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLoginButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ej.modules.Login@7225790e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-27T11:24:37Z" finished-at="2019-01-27T11:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ej.modules.Login -->
+      <class name="ej.modules.ManageCompany">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-01-27T11:24:11Z" finished-at="2019-01-27T11:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-01-27T11:24:37Z" finished-at="2019-01-27T11:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createNewCo()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="createNewCo" duration-ms="30882" started-at="2019-01-27T11:24:37Z" finished-at="2019-01-27T11:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCo -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-27T11:24:37Z" finished-at="2019-01-27T11:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-27T11:25:08Z" finished-at="2019-01-27T11:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-01-27T11:25:08Z" finished-at="2019-01-27T11:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deleteCompany()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="deleteCompany" duration-ms="453" started-at="2019-01-27T11:25:08Z" finished-at="2019-01-27T11:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCompany -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-27T11:25:08Z" finished-at="2019-01-27T11:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-01-27T11:25:08Z" finished-at="2019-01-27T11:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-01-27T11:25:08Z" finished-at="2019-01-27T11:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ej.modules.ManageCompany -->
+    </test> <!-- verify creation of new company -->
+    <test name="verify login functionality with 2 users" duration-ms="46301" started-at="2019-01-27T11:25:08Z" finished-at="2019-01-27T11:25:55Z">
+      <class name="ej.modules.Login">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ej.modules.Login@5056dfcb]" name="beforeMethod" is-config="true" duration-ms="19" started-at="2019-01-27T11:25:08Z" finished-at="2019-01-27T11:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="EnterUserNamePassword(java.lang.String, java.lang.String)[pri:0, instance:ej.modules.Login@5056dfcb]" name="EnterUserNamePassword" duration-ms="23265" started-at="2019-01-27T11:25:08Z" data-provider="Authentication" finished-at="2019-01-27T11:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummyfm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserNamePassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ej.modules.Login@5056dfcb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-27T11:25:32Z" finished-at="2019-01-27T11:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ej.modules.Login@5056dfcb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-27T11:25:32Z" finished-at="2019-01-27T11:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="EnterUserNamePassword(java.lang.String, java.lang.String)[pri:0, instance:ej.modules.Login@5056dfcb]" name="EnterUserNamePassword" duration-ms="23014" started-at="2019-01-27T11:25:32Z" data-provider="Authentication" finished-at="2019-01-27T11:25:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummyrm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserNamePassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ej.modules.Login@5056dfcb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-27T11:25:55Z" finished-at="2019-01-27T11:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ej.modules.Login -->
+      <class name="ej.modules.ManageCompany">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="beforeSuite" is-config="true" duration-ms="24" started-at="2019-01-27T11:24:11Z" finished-at="2019-01-27T11:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:ej.modules.ManageCompany@35fb3008]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-01-27T11:25:55Z" finished-at="2019-01-27T11:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- ej.modules.ManageCompany -->
+    </test> <!-- verify login functionality with 2 users -->
+  </suite> <!-- SMOKE -->
+</testng-results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SMOKE">
+<!--  <listeners>
+   <listener class-name="ej.listner.suite_listener"></listener>
+   <listener class-name="ej.listner.testcase_listener"></listener>
+    </listeners> -->
+  <parameter name="project" value="finsys"></parameter>
+  <test name="verify deletion of company" preserve-order="true">
+  <parameter name="tcid" value="tc10001"></parameter>
+  <parameter name="owner" value="neelima"></parameter>
+  <parameter name="browsername" value="FF32"></parameter>
+   <parameter name="url" value="http://localhost:90/finsys/login.html"></parameter>
+   <parameter name="username" value="dummyfm"></parameter>
+    <parameter name="password" value="passw0rd"></parameter>
+    <parameter name="textmessage" value="Welcome"></parameter>
+    <groups>
+    <run>
+    <include name="launch"/>
+    <include name="login"/>
+    </run>
+    </groups>
+    <classes>
+  	<class name="ej.modules.Login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

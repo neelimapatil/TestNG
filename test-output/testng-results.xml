@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" ignored="0" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61707" started-at="2019-03-21T07:37:47Z" finished-at="2019-03-21T07:38:49Z">
+    <groups>
+      <group name="launch">
+        <method signature="Login.OpenBrowser(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="OpenBrowser" class="ej.modules.Login"/>
+        <method signature="Login.EnterURL(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="EnterURL" class="ej.modules.Login"/>
+      </group> <!-- launch -->
+      <group name="login">
+        <method signature="Login.EnterUserName(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="EnterUserName" class="ej.modules.Login"/>
+        <method signature="Login.EnterPassword(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="EnterPassword" class="ej.modules.Login"/>
+        <method signature="Login.ClickLoginButton(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="ClickLoginButton" class="ej.modules.Login"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Default test" duration-ms="61707" started-at="2019-03-21T07:37:47Z" finished-at="2019-03-21T07:38:49Z">
+      <class name="ej.modules.Login">
+        <test-method status="PASS" signature="EnterUserNamePassword(java.lang.String, java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="EnterUserNamePassword" duration-ms="26561" started-at="2019-03-21T07:37:47Z" data-provider="Authentication" finished-at="2019-03-21T07:38:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummyfm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserNamePassword -->
+        <test-method status="PASS" signature="EnterUserNamePassword(java.lang.String, java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="EnterUserNamePassword" duration-ms="19963" started-at="2019-03-21T07:38:14Z" data-provider="Authentication" finished-at="2019-03-21T07:38:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummyrm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserNamePassword -->
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="OpenBrowser" duration-ms="15091" started-at="2019-03-21T07:38:33Z" data-provider="Authentication1" finished-at="2019-03-21T07:38:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="FAIL" signature="EnterURL(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="EnterURL" duration-ms="0" started-at="2019-03-21T07:38:49Z" depends-on-methods="ej.modules.Login.OpenBrowser" finished-at="2019-03-21T07:38:49Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'url' is required by @Test on method EnterURL but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1920025526\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by @Test on method EnterURL but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1920025526\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterURL -->
+        <test-method status="SKIP" signature="EnterUserName(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="EnterUserName" duration-ms="0" depends-on-groups="launch" started-at="2019-03-21T07:38:49Z" finished-at="2019-03-21T07:38:49Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Login.EnterUserName(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d] depends on not successfully finished methods in group "launch"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Login.EnterUserName(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d] depends on not successfully finished methods in group "launch"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserName -->
+        <test-method status="SKIP" signature="EnterPassword(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="EnterPassword" duration-ms="0" depends-on-groups="launch" started-at="2019-03-21T07:38:49Z" depends-on-methods="ej.modules.Login.EnterUserName" finished-at="2019-03-21T07:38:49Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Login.EnterPassword(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d] depends on not successfully finished methods in group "launch"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Login.EnterPassword(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d] depends on not successfully finished methods in group "launch"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPassword -->
+        <test-method status="SKIP" signature="ClickLoginButton(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d]" name="ClickLoginButton" duration-ms="0" depends-on-groups="launch" started-at="2019-03-21T07:38:49Z" depends-on-methods="ej.modules.Login.EnterPassword" finished-at="2019-03-21T07:38:49Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Login.ClickLoginButton(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d] depends on not successfully finished methods in group "launch"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Login.ClickLoginButton(java.lang.String)[pri:0, instance:ej.modules.Login@4b952a2d] depends on not successfully finished methods in group "launch"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLoginButton -->
+      </class> <!-- ej.modules.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
